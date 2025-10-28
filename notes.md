@@ -195,7 +195,7 @@ What are the pros/cons of polling?
 
 Would a modern server ever do polling?
 
-* Yes.
+* Yes. For example, workers polling for jobs from a work queue.
 
 Is there a third option?
 
