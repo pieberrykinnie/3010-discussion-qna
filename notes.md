@@ -1,6 +1,6 @@
 # Discussion Questions
 
-Questions are organized by per-week materials.
+Questions are organized by topics.
 
 ## Resource Discovery
 
@@ -65,7 +65,7 @@ How can we solve addressing services? How do names get configured/managed? What 
 
 How do we know where the name server is? At some point, do you *have to have* well known services?
 
-* ...You need to know which port it's on to connect to it. At some point, needing well known services is required. Well-known ports help, e.g. the `ssh` protocol always connect to port 22.
+* You need to know which port it's on to connect to it. At some point, needing well known services is required. Well-known ports help, e.g. the `ssh` protocol always connect to port 22.
 
 Are "/" paths?
 
@@ -111,6 +111,8 @@ How much state does the client need to get appropriate data?
 * It depends. Rule of thumb is as little as possible, but there are some drawbacks to this.
 
 How do we share state?
+
+* Sending state as part of the message.
 
 When fetching new threads/comments/articles, what is the thick *client* solution? What is the thin *client* solution? Can one be more effective at saving bandwith?
 
